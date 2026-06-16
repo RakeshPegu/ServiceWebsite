@@ -1,6 +1,6 @@
 const FAQ = () => {
   return (
-    <section className="bg-white py-24">
+    <section className="bg-white py-24" id="faq">
       <div className="mx-auto max-w-4xl px-6">
         {/* Header */}
         <div className="text-center">

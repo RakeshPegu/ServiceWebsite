@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="bg-slate-200 py-24">
+    <section className="bg-slate-200 py-24" id="about">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Left Side - Image Placeholder */}
@@ -31,7 +31,7 @@ const About = () => {
           {/* Right Side - Content */}
           <div>
             <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-600">
-              About Me
+              About 
             </span>
 
             <h2 className="mt-6 text-4xl font-bold text-slate-900 md:text-5xl">
@@ -42,14 +42,14 @@ const About = () => {
             </h2>
 
             <p className="mt-6 text-lg leading-relaxed text-slate-600">
-              I'm <strong>Rakesh</strong>, a  full-stack developer
-              specializing in modern web applications. I help businesses build
+              <strong>HORIZON</strong>, a  Web-site builder service platform
+              specializing in modern web applications. We help businesses build
               fast, responsive, and scalable websites using modern technologies.
             </p>
 
             <p className="mt-4 text-lg leading-relaxed text-slate-600">
               Whether you need a business website, e-commerce platform, or
-              custom web application, my focus is on creating solutions that
+              custom web application, Our focus is on creating solutions that
               not only look great but also deliver real business value.
             </p>
 

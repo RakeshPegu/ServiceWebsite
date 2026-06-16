@@ -57,7 +57,7 @@ interface Steps{
   ];
 
   return (
-    <section className="bg-slate-50 py-24">
+    <section className="bg-slate-50 py-24" id='process'>
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
         <div className="text-center">

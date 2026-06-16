@@ -2,7 +2,7 @@ import {FaWhatsapp, FaLinkedinIn} from 'react-icons/fa'
 import {MdOutlineMail} from 'react-icons/md'
 const Contact = () => {
   return (
-    <section className="bg-slate-50 py-24">
+    <section className="bg-slate-50 py-24" id='contact'>
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
         <div className="text-center">

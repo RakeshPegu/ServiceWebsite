@@ -3,8 +3,8 @@ import { AiTwotoneThunderbolt } from 'react-icons/ai';
 import { GiAutoRepair } from 'react-icons/gi';
  function HeroSection(){
     return(
-     <section className="relative overflow-hidden bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8 lg:py-20">
+     <section className="relative overflow-hidden bg-white ">
+      <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8 lg:py-25">
        <div className="grid items-center gap-16 lg:grid-cols-2">
       
        {/* Left Content */}
@@ -77,7 +77,7 @@ import { GiAutoRepair } from 'react-icons/gi';
       </div>
 
       {/* Right Side Visual */}
-      <div className="relative">
+      <div className="relative  lg:bottom-35 lg:left-15">
         <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-2xl">
           
           {/* Browser Header */}

@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <section className="bg-slate-200 py-24">
+    <section className="bg-slate-200 py-24" id="pricing">
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
         <div className="text-center">
@@ -19,9 +19,9 @@ const Pricing = () => {
         </div>
 
         {/* Pricing Cards */}
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+        <div className="mt-16 grid gap-8 lg:grid-cols-3 ">
           {/* Starter Website */}
-          <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition-all hover:-translate-y-2 hover:shadow-xl">
+          <div className="rounded-3xl border hover:border-2 border-slate-200 hover:border-blue-500 bg-white p-8 shadow-sm transition-all hover:-translate-y-2 hover:shadow-xl">
             <div className="mb-6">
               <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
                 Starter
@@ -57,10 +57,10 @@ const Pricing = () => {
           </div>
 
           {/* Business Website */}
-          <div className="relative rounded-3xl border-2 border-blue-600 bg-white p-8 shadow-xl">
+          <div className="relative rounded-3xl hover:border-2 hover:border-blue-500 bg-white p-8 shadow-xl">
             {/* Popular Badge */}
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-              <span className="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white">
+              <span className="rounded-full bg-gray-600 px-4 py-2 text-sm font-semibold text-white">
                 Most Popular
               </span>
             </div>
@@ -101,7 +101,7 @@ const Pricing = () => {
           </div>
 
           {/* Custom Web Application */}
-          <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition-all hover:-translate-y-2 hover:shadow-xl">
+          <div className="rounded-3xl border hover:border-2 hover:border-blue-500 border-slate-200 bg-white p-8 shadow-sm transition-all hover:-translate-y-2 hover:shadow-xl">
             <div className="mb-6">
               <span className="rounded-full bg-purple-100 px-4 py-2 text-sm font-medium text-purple-700">
                 Custom Solution

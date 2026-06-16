@@ -11,7 +11,7 @@ const Footer = () => {
               href="#"
               className="text-3xl font-bold text-white"
             >
-              Rakesh<span className="text-blue-500">.</span>
+              HORIZON<span className="text-blue-500">.</span>
             </a>
 
             <p className="mt-5 max-w-md leading-relaxed text-slate-400">

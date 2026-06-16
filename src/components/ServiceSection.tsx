@@ -3,8 +3,8 @@ import { AiTwotoneThunderbolt } from 'react-icons/ai';
 function ServiceSection(){
     return(
 
-        <section className="bg-slate-100 py-24">
-  <div className="mx-auto max-w-7xl px-6">
+  <section className="bg-slate-100 py-24" id='service'>
+    <div className="mx-auto max-w-7xl px-6">
 
     {/* Header */}
     <div className="text-center  flex lg:flex-col gap-4 items-center">

@@ -1,4 +1,46 @@
 const Navbar = () => {
+  const handleAboutClick =()=>{
+    const aboutElemet = document.getElementById('about')
+    if(aboutElemet){
+       aboutElemet.scrollIntoView({behavior: 'smooth'})
+    }
+  }
+  const handleServiceClick = ()=>{
+    const serviceElement = document.getElementById('service')
+    if(serviceElement){
+      serviceElement.scrollIntoView({behavior:'smooth'})
+    }
+  }
+  const handlePortfolioClick = ()=>{
+    const portFolioElement = document.getElementById('portfolio')
+    if(portFolioElement){
+      portFolioElement.scrollIntoView({behavior:'smooth'})
+    }
+  }
+  const handleProcessClick =()=>{
+    const processElement = document.getElementById("process")
+    if(processElement){
+       processElement.scrollIntoView({behavior:"smooth"})
+    }
+  }
+  const handlePricingClick = ()=>{
+    const pricingElement = document.getElementById('pricing')
+    if(pricingElement){
+        pricingElement.scrollIntoView({behavior:"smooth"})
+    }
+  }
+  const handleFAQClick = ()=>{
+    const faqElement = document.getElementById('faq')
+    if(faqElement){
+       faqElement.scrollIntoView({behavior:"smooth"})
+    }
+  }
+    const handleContactClick = ()=>{
+    const conElement = document.getElementById('contact')
+    if(conElement){
+       conElement.scrollIntoView({behavior:"smooth"})
+    }
+  }
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur-md">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
@@ -7,7 +49,7 @@ const Navbar = () => {
           href="/"
           className="text-2xl font-bold tracking-tight text-slate-900"
         >
-          Rakesh<span className="text-blue-600">.</span>
+          HORIZON<span className="text-blue-600">.</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -15,6 +57,7 @@ const Navbar = () => {
           <a
             href="#about"
             className="text-sm font-medium text-slate-600 transition hover:text-blue-600"
+            onClick={handleAboutClick}
           >
             About
           </a>
@@ -22,6 +65,7 @@ const Navbar = () => {
           <a
             href="#services"
             className="text-sm font-medium text-slate-600 transition hover:text-blue-600"
+            onClick={handleServiceClick}
           >
             Services
           </a>
@@ -29,6 +73,7 @@ const Navbar = () => {
           <a
             href="#portfolio"
             className="text-sm font-medium text-slate-600 transition hover:text-blue-600"
+            onClick={handlePortfolioClick}
           >
             Portfolio
           </a>
@@ -36,6 +81,7 @@ const Navbar = () => {
           <a
             href="#how-it-works"
             className="text-sm font-medium text-slate-600 transition hover:text-blue-600"
+            onClick={handleProcessClick}
           >
             Process
           </a>
@@ -43,6 +89,7 @@ const Navbar = () => {
           <a
             href="#pricing"
             className="text-sm font-medium text-slate-600 transition hover:text-blue-600"
+            onClick={handlePricingClick}
           >
             Pricing
           </a>
@@ -50,6 +97,7 @@ const Navbar = () => {
           <a
             href="#faq"
             className="text-sm font-medium text-slate-600 transition hover:text-blue-600"
+            onClick={handleFAQClick}
           >
             FAQ
           </a>
@@ -57,6 +105,7 @@ const Navbar = () => {
           <a
             href="#contact"
             className="text-sm font-medium text-slate-600 transition hover:text-blue-600"
+            onClick={handleContactClick}
           >
             Contact
           </a>

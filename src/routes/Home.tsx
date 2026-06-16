@@ -9,8 +9,15 @@ import Pricing from "../components/PricingSection";
 import ServiceSection from "../components/ServiceSection";
 import TrustedSection from "../components/TrustedSection";
 import WhyChooseUs from "../components/WhyChooseUs";
+import {useSelector, useDispatch } from 'react-redux'
+import { loginUser } from '../redux/slice/authSlice'
+
 
 function Home(){
+    const authState = useSelector(state => state) 
+    const disPatch = useDispatch()
+    console.log('this is auth State', authState )
+    
     return(
         < >
         <div className="flex flex-col gap-20">

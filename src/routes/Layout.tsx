@@ -4,11 +4,12 @@ import Footer from "../components/Footer";
 
 function Layout(){
     return(
-        <div>
-            <div><Navbar/></div>
-            <div><Outlet/></div>
-            <div><Footer/></div>
-        </div>
+        <>
+        <Navbar/>
+        <Outlet/>
+        <Footer/>
+        </>
+    
     )
 
 }
